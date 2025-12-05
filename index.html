@@ -13,13 +13,18 @@
         <div class="container">
             <nav class="nav">
                 <div class="logo">watchcharm</div>
+                <button class="burger-btn" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
                 <ul class="nav-menu">
-                    <li><a href="#" class="nav-link active">Home</a></li>
-                    <li><a href="#" class="nav-link">About Us</a></li>
-                    <li><a href="#" class="nav-link">Catalog</a></li>
-                    <li><a href="#" class="nav-link">Sale</a></li>
-                    <li><a href="#" class="nav-link">Reviews</a></li>
-                    <li><a href="#" class="nav-link">Contact Us</a></li>
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About Us</a></li>
+                    <li><a href="#catalog" class="nav-link">Catalog</a></li>
+                    <li><a href="#sale" class="nav-link">Sale</a></li>
+                    <li><a href="#reviews" class="nav-link">Reviews</a></li>
+                    <li><a href="#contact" class="nav-link">Contact Us</a></li>
                 </ul>
                 <div class="social-links">
                     <a href="https://facebook.com" target="_blank" class="social-link">
@@ -37,7 +42,7 @@
     </header>
 
     <main>
-        <section class="hero">
+        <section class="hero" id="home">
             <div class="container">
                 <div class="hero-content">
                     <div class="hero-text">
@@ -73,12 +78,15 @@
                 <div class="about-text">
                     <h2 class="about-title">About Us</h2>
                     <p class="about-description">
-                        Welcome to our premium watch collection, where luxury and style meet functionality and precision.
-                        Our selection of timepieces embodies the very best in Swiss craftsmanship and engineering, ensuring
+                        Welcome to our premium watch collection, where luxury and style meet functionality and
+                        precision.
+                        Our selection of timepieces embodies the very best in Swiss craftsmanship and engineering,
+                        ensuring
                         that you'll always have a reliable and stylish accessory on your wrist.
                     </p>
                     <p class="about-description">
-                        At our premium watch collection, we believe that a watch is more than just a timekeeping device –
+                        At our premium watch collection, we believe that a watch is more than just a timekeeping device
+                        –
                         it's a statement piece that reflects your personality and style. So why settle for anything less
                         than the best?
                     </p>
@@ -90,7 +98,7 @@
             </div>
         </div>
     </section>
-    <section class="catalog">
+    <section class="catalog" id="catalog">
         <div class="container">
             <h2 class="catalog-title">Catalog</h2>
             <div class="catalog-grid">
@@ -101,7 +109,7 @@
                     <h3 class="product-name">Garmin Fenix 7X Pro Sapphire Sol...</h3>
                     <p class="product-price">€500</p>
                 </div>
-    
+
                 <div class="product-card">
                     <div class="product-image">
                         <img src="images/Catalog/2.png" alt="Garmin Marq Athlete">
@@ -109,7 +117,7 @@
                     <h3 class="product-name">Garmin Marq Athlete</h3>
                     <p class="product-price">€450</p>
                 </div>
-    
+
                 <div class="product-card">
                     <div class="product-image">
                         <img src="images/Catalog/3.png" alt="Garmin Descent MK1">
@@ -117,7 +125,7 @@
                     <h3 class="product-name">Garmin Descent MK1</h3>
                     <p class="product-price">€680</p>
                 </div>
-    
+
                 <div class="product-card">
                     <div class="product-image">
                         <img src="images/Catalog/5.png" alt="Garmin D2 Delta PX">
@@ -125,7 +133,7 @@
                     <h3 class="product-name">Garmin D2 Delta PX</h3>
                     <p class="product-price">€380</p>
                 </div>
-    
+
                 <div class="product-card">
                     <div class="product-image">
                         <img src="images/Catalog/5.png" alt="Garmin Fenix 6 Pro Solar">
@@ -133,7 +141,7 @@
                     <h3 class="product-name">Garmin Fenix 6 Pro Solar</h3>
                     <p class="product-price">€400</p>
                 </div>
-    
+
                 <div class="product-card">
                     <div class="product-image">
                         <img src="images/Catalog/6.png" alt="Tube Watch S42 Date Steel">
@@ -144,7 +152,7 @@
             </div>
         </div>
     </section>
-    <section class="advertisement">
+    <section class="advertisement" id="advertisement">
         <div class="container">
             <div class="ad-banner">
                 <div class="ad-content">
@@ -158,11 +166,10 @@
             </div>
         </div>
     </section>
-    <section class="sale">
+    <section class="sale" id="sale">
         <div class="container">
             <h2 class="sale-title">Sale</h2>
             <div class="sale-content">
-                <!-- Левая часть: миниатюры -->
                 <div class="sale-thumbnails">
                     <div class="thumbnail-item active">
                         <img src="images/sale/1.png" alt="Watch view 1">
@@ -177,35 +184,33 @@
                         <img src="images/sale/4.png" alt="Watch view 4">
                     </div>
                 </div>
-    
-                <!-- Центр: основное изображение -->
                 <div class="sale-main-image">
                     <img src="images/sale/5.png" alt="MARQ Commander">
                 </div>
-    
-                <!-- Правая часть: информационная карточка -->
                 <div class="sale-info-card">
                     <h3 class="sale-product-title">MARQ® Commander (Gen 2) – Carbon Edition</h3>
                     <p class="sale-product-tag">Product tag: 706587</p>
-    
+
                     <div class="sale-price-block">
                         <span class="sale-price-current">€1500</span>
                         <span class="sale-price-old">€3000</span>
                     </div>
-    
+
                     <p class="sale-product-description">
                         The Garmin MARQ Commander Gen 2 Carbon Edition is a modern smartwatch for adventurers that takes
-                        materials and features to the next level. The body of the watch is made of very durable Fused Carbon
-                        Fiber material and has a precise AMOLED touch screen. The sensitive touch screen is complemented by
+                        materials and features to the next level. The body of the watch is made of very durable Fused
+                        Carbon
+                        Fiber material and has a precise AMOLED touch screen. The sensitive touch screen is complemented
+                        by
                         buttons that can be used in any conditions.
                     </p>
-    
+
                     <div class="sale-features">
                         <span class="feature-tag">Fused carbon fiber</span>
                         <span class="feature-tag">Grade-5 Titanium</span>
                         <span class="feature-tag">Athlete</span>
                     </div>
-    
+
                     <div class="sale-categories">
                         <span class="category-tag">Golfer</span>
                         <span class="category-tag">Commander</span>
@@ -215,7 +220,7 @@
             </div>
         </div>
     </section>
-    <section class="reviews">
+    <section class="reviews" id="reviews">
         <div class="container">
             <h2 class="reviews-title">Reviews</h2>
             <div class="reviews-grid">
@@ -223,20 +228,22 @@
                     <img src="images/reviews/1.png" alt="John Wax" class="review-avatar">
                     <h3 class="review-name">John Wax</h3>
                     <p class="review-text">
-                        Buying a watch from was the best choice for me. The design is perfectly combined with high quality
+                        Buying a watch from was the best choice for me. The design is perfectly combined with high
+                        quality
                         materials. The strap fits nicely on the hand, and the mechanism works flawlessly.
                     </p>
                 </div>
-    
+
                 <div class="review-card">
                     <img src="images/reviews/2.png" alt="Victoria Romashenko" class="review-avatar">
                     <h3 class="review-name">Victoria Romashenko</h3>
                     <p class="review-text">
-                        Can't take my eyes off my watch from. Every time I put it on, it is admired by those around me. The
+                        Can't take my eyes off my watch from. Every time I put it on, it is admired by those around me.
+                        The
                         build quality and attention to detail make it a real gem among my accessories.
                     </p>
                 </div>
-    
+
                 <div class="review-card">
                     <img src="images/reviews/3.png" alt="Anastasia Trachuk" class="review-avatar">
                     <h3 class="review-name">Anastasia Trachuk</h3>
@@ -248,13 +255,14 @@
             </div>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="container">
             <h2 class="contact-title">Contact Us</h2>
             <div class="contact-content">
                 <div class="contact-form-wrapper">
                     <p class="contact-description">
-                        Please use the form below to contact us. Enter your name, email, phone, and message and we'll get
+                        Please use the form below to contact us. Enter your name, email, phone, and message and we'll
+                        get
                         back to you shortly.
                     </p>
                     <form class="contact-form">
@@ -288,13 +296,14 @@
                         </a>
                     </div>
                 </div>
-    
+
                 <div class="footer-center">
                     <h3 class="footer-tagline">
-                        Have the time of your life with our watches: where high-class craftsmanship meets impeccable design
+                        Have the time of your life with our watches: where high-class craftsmanship meets impeccable
+                        design
                     </h3>
                 </div>
-    
+
                 <div class="footer-right">
                     <div class="footer-contact">
                         <a href="tel:+380684439426" class="footer-phone">+380 (68) 443-94-26</a>
@@ -305,17 +314,17 @@
                     </div>
                 </div>
             </div>
-    
+
             <div class="footer-bottom">
                 <nav class="footer-nav">
-                    <a href="#" class="footer-nav-link">Home</a>
-                    <a href="#" class="footer-nav-link">About Us</a>
-                    <a href="#" class="footer-nav-link">Catalog</a>
-                    <a href="#" class="footer-nav-link">Sale</a>
-                    <a href="#" class="footer-nav-link">Reviews</a>
-                    <a href="#" class="footer-nav-link">Contact Us</a>
+                    <a href="#home" class="footer-nav-link">Home</a>
+                    <a href="#about" class="footer-nav-link">About Us</a>
+                    <a href="#catalog" class="footer-nav-link">Catalog</a>
+                    <a href="#sale" class="footer-nav-link">Sale</a>
+                    <a href="#reviews" class="footer-nav-link">Reviews</a>
+                    <a href="#contact" class="footer-nav-link">Contact Us</a>
                 </nav>
-    
+
                 <div class="footer-legal">
                     <p class="footer-copyright">©2023 The Watch Spot. All rights reserved.</p>
                     <div class="footer-links">
@@ -326,6 +335,7 @@
             </div>
         </div>
     </footer>
+    <script src="script/script.js"></script>
 </body>
 
 </html>
