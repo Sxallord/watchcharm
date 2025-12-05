@@ -4,61 +4,214 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WatchCharm — Premium Watches</title>
+    <title>WatchCharm</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <!-- Header / Navigation -->
     <header class="header">
         <div class="container">
-            <div class="logo">watchcharm</div>
             <nav class="nav">
-                <ul>
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Catalog</a></li>
-                    <li><a href="#">Sale</a></li>
-                    <li><a href="#">Reviews</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                <div class="logo">watchcharm</div>
+                <ul class="nav-menu">
+                    <li><a href="#" class="nav-link active">Home</a></li>
+                    <li><a href="#" class="nav-link">About Us</a></li>
+                    <li><a href="#" class="nav-link">Catalog</a></li>
+                    <li><a href="#" class="nav-link">Sale</a></li>
+                    <li><a href="#" class="nav-link">Reviews</a></li>
+                    <li><a href="#" class="nav-link">Contact Us</a></li>
                 </ul>
+                <div class="social-links">
+                    <a href="https://facebook.com" target="_blank" class="social-link">
+                        <img src="images/facebook.svg" alt="Facebook">
+                    </a>
+                    <a href="https://instagram.com" target="_blank" class="social-link">
+                        <img src="images/instagram.svg" alt="Instagram">
+                    </a>
+                    <a href="https://youtube.com" target="_blank" class="social-link">
+                        <img src="images/youtube.svg" alt="YouTube">
+                    </a>
+                </div>
             </nav>
-            <div class="social-icons">
-                <a href="#" aria-label="Facebook">
-                    <svg width="36" height="36">
-                        <use href="icons.svg#icon-facebook" />
-                    </svg>
-                </a>
-                <a href="#" aria-label="Instagram">
-                    <svg width="36" height="36">
-                        <use href="icons.svg#icon-instagram" />
-                    </svg>
-                </a>
-                <a href="#" aria-label="YouTube">
-                    <svg width="36" height="36">
-                        <use href="icons.svg#icon-youtube" />
-                    </svg>
-                </a>
-            </div>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">
+                            Welcome to our<br>
+                            <span class="highlight">collection</span> of<br>
+                            premium watches
+                        </h1>
+                        <p class="hero-description">
+                            Our watches are not just timepieces, but also an expression of your personality and
+                            lifestyle. From classic designs to modern ones, we have a watch to suit every taste and
+                            occasion.
+                        </p>
+                    </div>
+                    <div class="hero-team">
+                        <img src="images/hero/team1.jpg" alt="Team member" class="team-photo">
+                        <img src="images/hero/team2.jpg" alt="Team member" class="team-photo">
+                        <img src="images/hero/team3.jpg" alt="Team member" class="team-photo">
+                    </div>
+                </div>
+                <div class="scroll-indicator">
+                    <span>Scroll down</span>
+                </div>
+                <div class="hero-image">
+                    <img src="images/hero/watch.png" alt="Premium Watch">
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="about">
         <div class="container">
-            <div class="hero-content">
-                <h1>Welcome to our <span class="highlight">collection</span> of premium watches</h1>
-                <p>Our watches are not just timepieces, but also an expression of your personality and lifestyle. From
-                    classic designs to modern ones, we have a watch to suit every taste and occasion.</p>
-                <a href="#scroll-down" class="scroll-link">Scroll down</a>
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="about-title">About Us</h2>
+                    <p class="about-description">
+                        Welcome to our premium watch collection, where luxury and style meet functionality and precision.
+                        Our selection of timepieces embodies the very best in Swiss craftsmanship and engineering, ensuring
+                        that you'll always have a reliable and stylish accessory on your wrist.
+                    </p>
+                    <p class="about-description">
+                        At our premium watch collection, we believe that a watch is more than just a timekeeping device –
+                        it's a statement piece that reflects your personality and style. So why settle for anything less
+                        than the best?
+                    </p>
+                    <a href="#" class="btn-primary">View catalog</a>
+                </div>
+                <div class="about-image">
+                    <img src="images/about us/watch.png" alt="Premium Watch">
+                </div>
             </div>
-            <div class="hero-image">
-                <img src="https://via.placeholder.com/600x400?text=Watch+Image" alt="Premium Watch">
+        </div>
+    </section>
+    <section class="catalog">
+        <div class="container">
+            <h2 class="catalog-title">Catalog</h2>
+            <div class="catalog-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/Catalog/1.png" alt="Garmin Fenix 7X Pro Sapphire Solar">
+                    </div>
+                    <h3 class="product-name">Garmin Fenix 7X Pro Sapphire Sol...</h3>
+                    <p class="product-price">€500</p>
+                </div>
+    
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/Catalog/2.png" alt="Garmin Marq Athlete">
+                    </div>
+                    <h3 class="product-name">Garmin Marq Athlete</h3>
+                    <p class="product-price">€450</p>
+                </div>
+    
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/Catalog/3.png" alt="Garmin Descent MK1">
+                    </div>
+                    <h3 class="product-name">Garmin Descent MK1</h3>
+                    <p class="product-price">€680</p>
+                </div>
+    
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/Catalog/5.png" alt="Garmin D2 Delta PX">
+                    </div>
+                    <h3 class="product-name">Garmin D2 Delta PX</h3>
+                    <p class="product-price">€380</p>
+                </div>
+    
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/Catalog/5.png" alt="Garmin Fenix 6 Pro Solar">
+                    </div>
+                    <h3 class="product-name">Garmin Fenix 6 Pro Solar</h3>
+                    <p class="product-price">€400</p>
+                </div>
+    
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/Catalog/6.png" alt="Tube Watch S42 Date Steel">
+                    </div>
+                    <h3 class="product-name">Tube Watch S42 Date Steel With...</h3>
+                    <p class="product-price">€395</p>
+                </div>
             </div>
-            <div class="team-avatars">
-                <img src="https://via.placeholder.com/50" alt="Team Member 1">
-                <img src="https://via.placeholder.com/50" alt="Team Member 2">
-                <img src="https://via.placeholder.com/50" alt="Team Member 3">
+        </div>
+    </section>
+    <section class="advertisement">
+        <div class="container">
+            <div class="ad-banner">
+                <div class="ad-content">
+                    <h2 class="ad-title">
+                        Choose <span class="ad-gray">your story</span>, making every<br>
+                        moment unique. Time is your<br>
+                        style, and we reveal it.
+                    </h2>
+                    <a href="#" class="btn-contact">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sale">
+        <div class="container">
+            <h2 class="sale-title">Sale</h2>
+            <div class="sale-content">
+                <!-- Левая часть: миниатюры -->
+                <div class="sale-thumbnails">
+                    <div class="thumbnail-item active">
+                        <img src="images/sale/1.png" alt="Watch view 1">
+                    </div>
+                    <div class="thumbnail-item">
+                        <img src="images/sale/2.png" alt="Watch view 2">
+                    </div>
+                    <div class="thumbnail-item">
+                        <img src="images/sale/3.png" alt="Watch view 3">
+                    </div>
+                    <div class="thumbnail-item">
+                        <img src="images/sale/4.png" alt="Watch view 4">
+                    </div>
+                </div>
+    
+                <!-- Центр: основное изображение -->
+                <div class="sale-main-image">
+                    <img src="images/sale/5.png" alt="MARQ Commander">
+                </div>
+    
+                <!-- Правая часть: информационная карточка -->
+                <div class="sale-info-card">
+                    <h3 class="sale-product-title">MARQ® Commander (Gen 2) – Carbon Edition</h3>
+                    <p class="sale-product-tag">Product tag: 706587</p>
+    
+                    <div class="sale-price-block">
+                        <span class="sale-price-current">€1500</span>
+                        <span class="sale-price-old">€3000</span>
+                    </div>
+    
+                    <p class="sale-product-description">
+                        The Garmin MARQ Commander Gen 2 Carbon Edition is a modern smartwatch for adventurers that takes
+                        materials and features to the next level. The body of the watch is made of very durable Fused Carbon
+                        Fiber material and has a precise AMOLED touch screen. The sensitive touch screen is complemented by
+                        buttons that can be used in any conditions.
+                    </p>
+    
+                    <div class="sale-features">
+                        <span class="feature-tag">Fused carbon fiber</span>
+                        <span class="feature-tag">Grade-5 Titanium</span>
+                        <span class="feature-tag">Athlete</span>
+                    </div>
+    
+                    <div class="sale-categories">
+                        <span class="category-tag">Golfer</span>
+                        <span class="category-tag">Commander</span>
+                        <span class="category-tag">Adventurer</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
